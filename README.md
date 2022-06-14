@@ -60,3 +60,5 @@ CREATE TABLE IF NOT EXISTS movies_genres (
     FOREIGN KEY (genres_id) REFERENCES genres(id)
 );
 ~~~
+
+![Diagrama](Diagrama.PNG)
