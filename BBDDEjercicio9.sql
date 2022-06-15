@@ -109,10 +109,15 @@ INSERT INTO movies_stars (movies_id, stars_id) VALUES
 (5,4);
 
 
-DELETE FROM movies_directors;
-DELETE FROM movies_stars;
-DELETE FROM movies_genres;
 DELETE FROM movies;
 DELETE FROM directors;
 DELETE FROM stars;
 DELETE FROM genres;
+
+-- DELETE FROM movies_directors;
+-- DELETE FROM movies_stars;
+-- DELETE FROM movies_genres;
+-- DELETE FROM movies;
+-- DELETE FROM directors;
+-- DELETE FROM stars;
+-- DELETE FROM genres;
